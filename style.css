@@ -174,6 +174,45 @@ h3 {
   color: #fff;
   text-decoration: none;
 }
+#featured-members-id {
+  margin-left: 3%;
+  margin-top: 13%;
+}
+
+#team-title {
+  color: rgb(111, 112, 116);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 6%;
+}
+
+.feature-detail {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  width: 340px;
+}
+
+#feature-image {
+  width: 140px;
+  height: 140px;
+}
+
+#feature-name {
+  color: rgb(111, 112, 116);
+  margin-bottom: 2%;
+}
+
+.deignation {
+  color: red;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#feature-desc {
+  color: rgb(111, 112, 116);
+  margin-top: 2%;
+}
 
 .about-page {
   height: 100vh;
@@ -245,7 +284,16 @@ h3 {
     background-size: cover;
     background-blend-mode: darken;
   }
+  .description,
+  #detail {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
 
+  .description {
+    padding-top: 8%;
+  }
   .nav-top {
     display: block;
     background-color: rgb(27, 23, 23);
@@ -359,6 +407,35 @@ h3 {
     padding-top: 10px;
     text-align: center;
   }
+  #featured-members-id {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    height: 80%;
+    margin-left: 8%;
+    margin-top: 4%;
+  }
+
+  #team-title {
+    font-size: 40px;
+    margin-top: 4%;
+  }
+
+  .feature-detail {
+    column-gap: 40px;
+    width: 80%;
+  }
+
+  .feature-data {
+    width: 200px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #feature-desc {
+    width: 200px;
+  }
+
 
   /* About Page CSS */
   .about-page {
