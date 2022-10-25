@@ -174,6 +174,7 @@ h3 {
   color: #fff;
   text-decoration: none;
 }
+
 #featured-members-id {
   margin-left: 3%;
   margin-top: 13%;
@@ -284,6 +285,7 @@ h3 {
     background-size: cover;
     background-blend-mode: darken;
   }
+
   .description,
   #detail {
     color: #fff;
@@ -294,6 +296,7 @@ h3 {
   .description {
     padding-top: 8%;
   }
+
   .nav-top {
     display: block;
     background-color: rgb(27, 23, 23);
@@ -313,6 +316,13 @@ h3 {
     padding: 15px;
   }
 
+  .partners ul {
+    padding-top: 1%;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+  }
+
   .desktop-nav-list ul {
     margin-left: 30%;
     margin-top: 3.5%;
@@ -327,6 +337,11 @@ h3 {
 
   a:active {
     color: #ec5242;
+  }
+
+  .partners a {
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 30px;
   }
 
   #nav-top-list a {
@@ -407,6 +422,7 @@ h3 {
     padding-top: 10px;
     text-align: center;
   }
+
   #featured-members-id {
     display: grid;
     grid-template-columns: auto auto;
@@ -436,8 +452,41 @@ h3 {
     width: 200px;
   }
 
+  .partners {
+    display: block;
+    background-color: #393b3f;
+    height: 155%;
+  }
 
-  /* About Page CSS */
+  #partners-title {
+    color: #fff;
+    font-family: lato, sans-serif;
+    padding-top: 1%;
+    text-align: center;
+  }
+
+  .partners li {
+    display: inline;
+    padding: 2%;
+  }
+
+  .footer {
+    display: block;
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-logo {
+    margin-left: 30%;
+    margin-top: 0.2%;
+  }
+
+  .footer-description {
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 1%;
+  }
+
   .about-page {
     height: 100%;
     background: rgba(0, 0, 0, 0.85) url(./images/jimin.png);
@@ -490,8 +539,4 @@ h3 {
     padding-bottom: 0;
     margin-bottom: 0;
   }
-
-  /* About Section CSS ends */
-
-  /* Desktop CSS ends here */
 }

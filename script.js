@@ -16,42 +16,42 @@ menuButton.addEventListener('click', showMenu);
 cross.addEventListener('click', hideMenu);
 const team = [
   {
-    image: '',
+    image: './images/rm.png',
     name: 'Rm',
     designation: 'Team leader',
     description:
       'is a South Korean rapper, singer-songwriter and record producer. He is the leader of the South Korean boy group BTS.',
   },
   {
-    image: '',
+    image: './images/jin.png',
     name: 'Kim Seok-jin',
     designation: 'vocal leader',
     description:
       ' Jin is a South Korean singer, songwriter, and member of the South Korean boy band BTS. Kim has co-written and released three solo tracks with BTS.',
   },
   {
-    image: '',
+    image: './images/jimin.png',
     name: 'Park Ji-min',
     designation: 'vocal leader',
     description:
       'Jimin, is a South Korean singer and dancer. In 2013, he made his debut as a member of the South Korean boy group BTS',
   },
   {
-    image: '',
+    image: './images/v.png',
     name: 'Kim Tae-hyung',
     designation: 'vocalist',
     description:
       'V, is a South Korean singer and songwriter. He is a member of the South Korean boy band BTS',
   },
   {
-    image: '',
+    image: './images/junkook.png',
     name: 'Jeon Jung-kook',
     designation: 'vocalist',
     description:
       'Jungkook (stylized as Jung Kook), is a South Korean singer and songwriter. He is the youngest member and vocalist',
   },
   {
-    image: '',
+    image: './images/suga.png',
     name: 'Min Yoon-g',
     designation: 'main rapper',
     description:
