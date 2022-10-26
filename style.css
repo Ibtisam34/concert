@@ -394,6 +394,14 @@ h3 {
     margin-left: 1%;
   }
 
+  .fan {
+    color: white;
+  }
+
+  .fan p {
+    color: white;
+  }
+
   .program {
     height: 60%;
     margin-top: -18px;
