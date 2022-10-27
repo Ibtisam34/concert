@@ -15,7 +15,6 @@ body {
 }
 
 h1 {
-  font-size: 10vw;
   font-family: 'Cocogoose', sans-serif;
 }
 
@@ -23,12 +22,6 @@ h2 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 5vw;
 }
-
-h3 {
-  font-size: 5vw;
-}
-
-
 
 .nav-logo {
   display: flex;
@@ -150,6 +143,19 @@ h3 {
   margin-left: 16%;
   margin-top: 10px;
 }
+
+h3.text {
+ font-size: 24px;
+}
+.h1-text {
+  font-size: 24px;
+}
+.event-date h2 {
+  font-size: 24px;
+}
+.event-date p {
+  font-size: 24px;
+}
 #detail {
   font-size: 18px;
   text-align: justify;
@@ -215,19 +221,21 @@ h3 {
 .join-bt {
   border-style: hidden;
   width: 55%;
-  padding: 27px;
+  padding: 8px;
   background-color: rgb(236, 82, 66);
   border-radius: 2px;
   margin-top: 32px;
-  margin-left: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 #join {
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-left: 17%;
+  border-radius: 8px;
 }
 
 #featured-members-id {
@@ -417,13 +425,15 @@ h3 {
   .desktop-navbar {
     display: flex;
     flex-direction: row;
-    height: 5%;
+    height: 70px;
     width: 100%;
     background-color: #fff;
   }
 
-  .logo {
-    margin-top: 0;
+  .logo img {
+    margin-top: -26px;
+    width: 66px;
+    height:66px;
   }
 
   .desktop-nav-list {
@@ -460,7 +470,7 @@ h3 {
   display: block;
   margin: 0 auto;
   padding: 20px;
-  margin-left: 5px;
+  margin-left: 5%;
   margin-bottom: 20px;
 }
 .location {
@@ -481,7 +491,16 @@ h3 {
   .summit-paragraph {
     margin-left: 10%;
   }
-  
+  .welcome {
+    width: 80%;
+   margin-left:auto ;
+   margin-right: auto;
+  }
+  .event-date{
+    width: 80%;
+   margin-left:auto ;
+   margin-right: auto
+  }
   #view-program {
     color: #fff;
   }
@@ -588,7 +607,7 @@ h3 {
   .footer-description {
     margin-left: 5%;
     font-size: 25px;
-    margin-top: 1%;
+     margin-top: 4%;
   }
 
   .about-page {
